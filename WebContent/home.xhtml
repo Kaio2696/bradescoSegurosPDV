@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<h:outputStylesheet library="bootstrap" name="global.css" />
+	<h:outputStylesheet library="bootstrap" name="bradseg_styles.min.css" />
+	<h:outputStylesheet library="bootstrap" name="inputStyle.css" />
+	<h:outputStylesheet library="bootstrap" name="stylesMod.min.css" />
+
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+</h:head>
+
+<h:body>
+
+	<div>
+		<div class="nav-main-menu">
+			<ul>
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#nav-menu"
+					aria-expanded="false">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+
+				<li class="brand"><a href="javascript:;">
+						<div class="container logo">
+							<div class="logo-content">
+								<img src="src/logo.png" alt="Bradesco Seguros" />
+							</div>
+						</div>
+				</a></li>
+
+				<li id="nav-menu" class="dropdown-items navbar-collapse collapse">
+					<ul>
+						<li class="dropdown navbar-item"><a href="javascript:;"
+							data-toggle="dropdown" data-hover="dropdown" role="button"
+							aria-expanded="false" class="dropdown-toggle"> Opções Aqui <span
+								class="icon-seta-baixo-b"></span>
+						</a>
+							<ul role="menu" class="dropdown-menu" style="width: 548.2px;">
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span>Subitem</a></li>
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span>Subitem</a></li>
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span>Subitem</a></li>
+							</ul></li>
+						<li class="dropdown navbar-item"><a href="javascript:;"
+							data-toggle="dropdown" data-hover="dropdown" role="button"
+							aria-expanded="false" class="dropdown-toggle"> Mais Opções <span
+								class="icon-seta-baixo-b"></span>
+						</a>
+							<ul role="menu" class="dropdown-menu" style="width: 549px;">
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span> Subitem
+										<div class="sub">Descrição</div> </a></li>
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span> Subitem
+										<div class="sub">Descrição</div> </a></li>
+								<li><a href="javascript:;" class="dropdown-item"><span
+										class="icon-seta-direita-b"></span> Subitem
+										<div class="sub">Descrição</div> </a></li>
+							</ul></li>
+						<li id="nav-institucional-inner" class="nav-institucional-inner">
+							<ul>
+								<li><a href="javascript:;">Link Simples</a></li>
+								<li><a href="javascript:;">Link Simples</a></li>
+								<li class="dropdown navbar-item"><a href="javascript:;"
+									data-toggle="dropdown" data-hover="dropdown" role="button"
+									aria-expanded="false" class="dropdown-toggle"> Link com
+										Subitens <span class="icon-seta-baixo-b"></span>
+								</a>
+									<ul role="menu" class="dropdown-menu">
+										<li><a href="javascript:;" class="dropdown-item">Subitem</a></li>
+										<li><a href="javascript:;" class="dropdown-item">Subitem</a></li>
+										<li><a href="javascript:;" class="dropdown-item">Subitem</a></li>
+									</ul></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-login"><a href="javascript:;"> <span
+						class="icon-nav-login"></span> <span class="login-text">Login</span>
+				</a></li>
+			</ul>
+		</div>
+
+		<div class="bs-container text-center col-xs-8">
+			<div class="bs-container bs-caixa col-xs-12">
+				<p>
+					<h4 class="hFont">Escolha a opção desejada</h4>
+				</p>
+
+				<div class="text-center">
+					<div class="form-group row">
+						<div class="col-xs-6">
+							<button class="bradseg-btn-mod red">Incluir</button>
+						</div>
+						<div class="col-xs-6">
+							<button class="bradseg-btn-mod red">Excluir</button>
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<div class="col-xs-6">
+							<button class="bradseg-btn-mod red">Incluir</button>
+						</div>
+						<div class="col-xs-6">
+							<button class="bradseg-btn-mod red">Excluir</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</h:body>
+</html>
